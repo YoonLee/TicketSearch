@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE1B6FE318ECFDA200D6233B /* BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B6FDC18ECFDA200D6233B /* BButton.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DE1B6FE418ECFDA200D6233B /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B6FDE18ECFDA200D6233B /* NSString+FontAwesome.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DE1B6FE518ECFDA200D6233B /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE1B6FE018ECFDA200D6233B /* FontAwesome.ttf */; };
+		DE1B6FE618ECFDA200D6233B /* UIColor+BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B6FE218ECFDA200D6233B /* UIColor+BButton.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DE1B6FEA18ED050A00D6233B /* UserSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B6FE918ED050A00D6233B /* UserSettingViewController.m */; };
+		DE1B6FF318ED327C00D6233B /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = DE1B6FF118ED327C00D6233B /* Placeholder.png */; };
+		DE1B6FF418ED327C00D6233B /* Placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE1B6FF218ED327C00D6233B /* Placeholder@2x.png */; };
+		DE1B6FF618ED36BB00D6233B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1B6FF518ED36BB00D6233B /* QuartzCore.framework */; };
+		DE1B6FFA18ED36F800D6233B /* MarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B6FF918ED36F800D6233B /* MarqueeLabel.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DE1B6FFE18ED3CA500D6233B /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B6FFD18ED3CA500D6233B /* CustomTableViewCell.m */; };
+		DE75E9A818EC1BA800A5CDB2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE75E9A718EC1BA800A5CDB2 /* RootViewController.m */; };
+		DE77E2AB18EC032D00F9EC31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE77E2AA18EC032D00F9EC31 /* Foundation.framework */; };
+		DE77E2AD18EC032D00F9EC31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE77E2AC18EC032D00F9EC31 /* CoreGraphics.framework */; };
+		DE77E2AF18EC032D00F9EC31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE77E2AE18EC032D00F9EC31 /* UIKit.framework */; };
+		DE77E2B518EC032D00F9EC31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE77E2B318EC032D00F9EC31 /* InfoPlist.strings */; };
+		DE77E2B718EC032D00F9EC31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE77E2B618EC032D00F9EC31 /* main.m */; };
+		DE77E2BB18EC032D00F9EC31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE77E2BA18EC032D00F9EC31 /* AppDelegate.m */; };
+		DE77E2BD18EC032D00F9EC31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE77E2BC18EC032D00F9EC31 /* Images.xcassets */; };
+		DE8BD84118ECD6DD0054FE7C /* SportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8BD84018ECD6DD0054FE7C /* SportViewController.m */; };
+		DE8BD84418ECD6F40054FE7C /* TheatreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8BD84318ECD6F40054FE7C /* TheatreViewController.m */; };
+		DE8BD84718ECD7080054FE7C /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8BD84618ECD7080054FE7C /* MusicViewController.m */; };
+		DE8BD84A18ECD74D0054FE7C /* CheckoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8BD84918ECD74D0054FE7C /* CheckoutViewController.m */; };
+		DE8BD85118ECE3950054FE7C /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8BD84E18ECE3950054FE7C /* JSONKit.m */; };
+		DE8BD85618ECE3A80054FE7C /* QueryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8BD85518ECE3A80054FE7C /* QueryManager.m */; };
+		DE8BD85F18ECEAF90054FE7C /* JMImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8BD85918ECEAF90054FE7C /* JMImageCache.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DE8BD86018ECEAF90054FE7C /* UIImageView+JMImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8BD85B18ECEAF90054FE7C /* UIImageView+JMImageCache.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DE8BD86118ECEAF90054FE7C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8BD85E18ECEAF90054FE7C /* Reachability.m */; };
+		DEC1495318ED6AEB007BF915 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DEC1495218ED6AEB007BF915 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE1B6FDB18ECFDA200D6233B /* BButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BButton.h; sourceTree = "<group>"; };
+		DE1B6FDC18ECFDA200D6233B /* BButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BButton.m; sourceTree = "<group>"; };
+		DE1B6FDD18ECFDA200D6233B /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		DE1B6FDE18ECFDA200D6233B /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		DE1B6FE018ECFDA200D6233B /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		DE1B6FE118ECFDA200D6233B /* UIColor+BButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BButton.h"; sourceTree = "<group>"; };
+		DE1B6FE218ECFDA200D6233B /* UIColor+BButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BButton.m"; sourceTree = "<group>"; };
+		DE1B6FE818ED050A00D6233B /* UserSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSettingViewController.h; sourceTree = "<group>"; };
+		DE1B6FE918ED050A00D6233B /* UserSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSettingViewController.m; sourceTree = "<group>"; };
+		DE1B6FF118ED327C00D6233B /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
+		DE1B6FF218ED327C00D6233B /* Placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Placeholder@2x.png"; sourceTree = "<group>"; };
+		DE1B6FF518ED36BB00D6233B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DE1B6FF818ED36F800D6233B /* MarqueeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarqueeLabel.h; sourceTree = "<group>"; };
+		DE1B6FF918ED36F800D6233B /* MarqueeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarqueeLabel.m; sourceTree = "<group>"; };
+		DE1B6FFC18ED3CA500D6233B /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTableViewCell.h; path = Views/CustomTableViewCell.h; sourceTree = "<group>"; };
+		DE1B6FFD18ED3CA500D6233B /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTableViewCell.m; path = Views/CustomTableViewCell.m; sourceTree = "<group>"; };
+		DE3B359B18EC28840062787A /* Global_Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global_Config.h; sourceTree = "<group>"; };
+		DE75E9A618EC1BA800A5CDB2 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		DE75E9A718EC1BA800A5CDB2 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		DE77E2A718EC032D00F9EC31 /* TicketMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicketMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE77E2AA18EC032D00F9EC31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE77E2AC18EC032D00F9EC31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE77E2AE18EC032D00F9EC31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE77E2B218EC032D00F9EC31 /* TicketMaster-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TicketMaster-Info.plist"; sourceTree = "<group>"; };
+		DE77E2B418EC032D00F9EC31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE77E2B618EC032D00F9EC31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE77E2B818EC032D00F9EC31 /* TicketMaster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TicketMaster-Prefix.pch"; sourceTree = "<group>"; };
+		DE77E2B918EC032D00F9EC31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE77E2BA18EC032D00F9EC31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE77E2BC18EC032D00F9EC31 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DE77E2C318EC032D00F9EC31 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DE8BD83F18ECD6DD0054FE7C /* SportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SportViewController.h; path = Category/Sports/SportViewController.h; sourceTree = "<group>"; };
+		DE8BD84018ECD6DD0054FE7C /* SportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SportViewController.m; path = Category/Sports/SportViewController.m; sourceTree = "<group>"; };
+		DE8BD84218ECD6F40054FE7C /* TheatreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TheatreViewController.h; path = Category/Theatre/TheatreViewController.h; sourceTree = "<group>"; };
+		DE8BD84318ECD6F40054FE7C /* TheatreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TheatreViewController.m; path = Category/Theatre/TheatreViewController.m; sourceTree = "<group>"; };
+		DE8BD84518ECD7080054FE7C /* MusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MusicViewController.h; path = Category/Music/MusicViewController.h; sourceTree = "<group>"; };
+		DE8BD84618ECD7080054FE7C /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MusicViewController.m; path = Category/Music/MusicViewController.m; sourceTree = "<group>"; };
+		DE8BD84818ECD74D0054FE7C /* CheckoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CheckoutViewController.h; path = Checkout/CheckoutViewController.h; sourceTree = "<group>"; };
+		DE8BD84918ECD74D0054FE7C /* CheckoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CheckoutViewController.m; path = Checkout/CheckoutViewController.m; sourceTree = "<group>"; };
+		DE8BD84C18ECE3950054FE7C /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		DE8BD84D18ECE3950054FE7C /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		DE8BD84E18ECE3950054FE7C /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		DE8BD84F18ECE3950054FE7C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DE8BD85418ECE3A80054FE7C /* QueryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryManager.h; sourceTree = "<group>"; };
+		DE8BD85518ECE3A80054FE7C /* QueryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryManager.m; sourceTree = "<group>"; };
+		DE8BD85818ECEAF90054FE7C /* JMImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMImageCache.h; sourceTree = "<group>"; };
+		DE8BD85918ECEAF90054FE7C /* JMImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMImageCache.m; sourceTree = "<group>"; };
+		DE8BD85A18ECEAF90054FE7C /* UIImageView+JMImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JMImageCache.h"; sourceTree = "<group>"; };
+		DE8BD85B18ECEAF90054FE7C /* UIImageView+JMImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JMImageCache.m"; sourceTree = "<group>"; };
+		DE8BD85D18ECEAF90054FE7C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		DE8BD85E18ECEAF90054FE7C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		DEC1495218ED6AEB007BF915 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE77E2A418EC032D00F9EC31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1B6FF618ED36BB00D6233B /* QuartzCore.framework in Frameworks */,
+				DE77E2AD18EC032D00F9EC31 /* CoreGraphics.framework in Frameworks */,
+				DE77E2AF18EC032D00F9EC31 /* UIKit.framework in Frameworks */,
+				DE77E2AB18EC032D00F9EC31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE1B6FDA18ECFDA200D6233B /* BButton */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B6FDB18ECFDA200D6233B /* BButton.h */,
+				DE1B6FDC18ECFDA200D6233B /* BButton.m */,
+				DE1B6FDD18ECFDA200D6233B /* NSString+FontAwesome.h */,
+				DE1B6FDE18ECFDA200D6233B /* NSString+FontAwesome.m */,
+				DE1B6FDF18ECFDA200D6233B /* resources */,
+				DE1B6FE118ECFDA200D6233B /* UIColor+BButton.h */,
+				DE1B6FE218ECFDA200D6233B /* UIColor+BButton.m */,
+			);
+			name = BButton;
+			path = Lib/BButton;
+			sourceTree = "<group>";
+		};
+		DE1B6FDF18ECFDA200D6233B /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B6FE018ECFDA200D6233B /* FontAwesome.ttf */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		DE1B6FE718ED04FB00D6233B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B6FE818ED050A00D6233B /* UserSettingViewController.h */,
+				DE1B6FE918ED050A00D6233B /* UserSettingViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		DE1B6FF718ED36F800D6233B /* MarqueeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B6FF818ED36F800D6233B /* MarqueeLabel.h */,
+				DE1B6FF918ED36F800D6233B /* MarqueeLabel.m */,
+			);
+			name = MarqueeLabel;
+			path = Lib/MarqueeLabel;
+			sourceTree = "<group>";
+		};
+		DE1B6FFB18ED3C7B00D6233B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B6FFC18ED3CA500D6233B /* CustomTableViewCell.h */,
+				DE1B6FFD18ED3CA500D6233B /* CustomTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DE3B356318EC28300062787A /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B6FDA18ECFDA200D6233B /* BButton */,
+				DE1B6FF718ED36F800D6233B /* MarqueeLabel */,
+				DE8BD85718ECEAF90054FE7C /* JMImageCache */,
+				DE8BD85C18ECEAF90054FE7C /* ReachAbility */,
+				DE8BD84B18ECE3950054FE7C /* JSONKit */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		DE77E29E18EC032D00F9EC31 = {
+			isa = PBXGroup;
+			children = (
+				DEC1495218ED6AEB007BF915 /* README.md */,
+				DE3B359B18EC28840062787A /* Global_Config.h */,
+				DE77E2B018EC032D00F9EC31 /* TicketMaster */,
+				DE77E2A918EC032D00F9EC31 /* Frameworks */,
+				DE77E2A818EC032D00F9EC31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE77E2A818EC032D00F9EC31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE77E2A718EC032D00F9EC31 /* TicketMaster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE77E2A918EC032D00F9EC31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B6FF518ED36BB00D6233B /* QuartzCore.framework */,
+				DE77E2AA18EC032D00F9EC31 /* Foundation.framework */,
+				DE77E2AC18EC032D00F9EC31 /* CoreGraphics.framework */,
+				DE77E2AE18EC032D00F9EC31 /* UIKit.framework */,
+				DE77E2C318EC032D00F9EC31 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE77E2B018EC032D00F9EC31 /* TicketMaster */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B6FFB18ED3C7B00D6233B /* Views */,
+				DE8BD85318ECE3A80054FE7C /* Manager */,
+				DE3B356318EC28300062787A /* Lib */,
+				DE77E2B918EC032D00F9EC31 /* AppDelegate.h */,
+				DE77E2BA18EC032D00F9EC31 /* AppDelegate.m */,
+				DE75E9A618EC1BA800A5CDB2 /* RootViewController.h */,
+				DE75E9A718EC1BA800A5CDB2 /* RootViewController.m */,
+				DE1B6FE718ED04FB00D6233B /* Settings */,
+				DE8BD83C18ECD63E0054FE7C /* Music */,
+				DE8BD83E18ECD6780054FE7C /* Theatre */,
+				DE8BD83B18ECD62F0054FE7C /* Sports */,
+				DE8BD83D18ECD6640054FE7C /* Checkout */,
+				DE77E2BC18EC032D00F9EC31 /* Images.xcassets */,
+				DE77E2B118EC032D00F9EC31 /* Supporting Files */,
+			);
+			path = TicketMaster;
+			sourceTree = "<group>";
+		};
+		DE77E2B118EC032D00F9EC31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B6FF118ED327C00D6233B /* Placeholder.png */,
+				DE1B6FF218ED327C00D6233B /* Placeholder@2x.png */,
+				DE77E2B218EC032D00F9EC31 /* TicketMaster-Info.plist */,
+				DE77E2B318EC032D00F9EC31 /* InfoPlist.strings */,
+				DE77E2B618EC032D00F9EC31 /* main.m */,
+				DE77E2B818EC032D00F9EC31 /* TicketMaster-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE8BD83B18ECD62F0054FE7C /* Sports */ = {
+			isa = PBXGroup;
+			children = (
+				DE8BD83F18ECD6DD0054FE7C /* SportViewController.h */,
+				DE8BD84018ECD6DD0054FE7C /* SportViewController.m */,
+			);
+			name = Sports;
+			sourceTree = "<group>";
+		};
+		DE8BD83C18ECD63E0054FE7C /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				DE8BD84518ECD7080054FE7C /* MusicViewController.h */,
+				DE8BD84618ECD7080054FE7C /* MusicViewController.m */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		DE8BD83D18ECD6640054FE7C /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				DE8BD84818ECD74D0054FE7C /* CheckoutViewController.h */,
+				DE8BD84918ECD74D0054FE7C /* CheckoutViewController.m */,
+			);
+			name = Checkout;
+			sourceTree = "<group>";
+		};
+		DE8BD83E18ECD6780054FE7C /* Theatre */ = {
+			isa = PBXGroup;
+			children = (
+				DE8BD84218ECD6F40054FE7C /* TheatreViewController.h */,
+				DE8BD84318ECD6F40054FE7C /* TheatreViewController.m */,
+			);
+			name = Theatre;
+			sourceTree = "<group>";
+		};
+		DE8BD84B18ECE3950054FE7C /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				DE8BD84C18ECE3950054FE7C /* CHANGELOG.md */,
+				DE8BD84D18ECE3950054FE7C /* JSONKit.h */,
+				DE8BD84E18ECE3950054FE7C /* JSONKit.m */,
+				DE8BD84F18ECE3950054FE7C /* README.md */,
+			);
+			name = JSONKit;
+			path = Lib/JSONKit;
+			sourceTree = "<group>";
+		};
+		DE8BD85318ECE3A80054FE7C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DE8BD85418ECE3A80054FE7C /* QueryManager.h */,
+				DE8BD85518ECE3A80054FE7C /* QueryManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		DE8BD85718ECEAF90054FE7C /* JMImageCache */ = {
+			isa = PBXGroup;
+			children = (
+				DE8BD85818ECEAF90054FE7C /* JMImageCache.h */,
+				DE8BD85918ECEAF90054FE7C /* JMImageCache.m */,
+				DE8BD85A18ECEAF90054FE7C /* UIImageView+JMImageCache.h */,
+				DE8BD85B18ECEAF90054FE7C /* UIImageView+JMImageCache.m */,
+			);
+			name = JMImageCache;
+			path = Lib/JMImageCache;
+			sourceTree = "<group>";
+		};
+		DE8BD85C18ECEAF90054FE7C /* ReachAbility */ = {
+			isa = PBXGroup;
+			children = (
+				DE8BD85D18ECEAF90054FE7C /* Reachability.h */,
+				DE8BD85E18ECEAF90054FE7C /* Reachability.m */,
+			);
+			name = ReachAbility;
+			path = Lib/ReachAbility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE77E2A618EC032D00F9EC31 /* TicketMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE77E2D318EC032D00F9EC31 /* Build configuration list for PBXNativeTarget "TicketMaster" */;
+			buildPhases = (
+				DE77E2A318EC032D00F9EC31 /* Sources */,
+				DE77E2A418EC032D00F9EC31 /* Frameworks */,
+				DE77E2A518EC032D00F9EC31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicketMaster;
+			productName = TicketMaster;
+			productReference = DE77E2A718EC032D00F9EC31 /* TicketMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE77E29F18EC032D00F9EC31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Yoon Lee";
+			};
+			buildConfigurationList = DE77E2A218EC032D00F9EC31 /* Build configuration list for PBXProject "TicketMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE77E29E18EC032D00F9EC31;
+			productRefGroup = DE77E2A818EC032D00F9EC31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE77E2A618EC032D00F9EC31 /* TicketMaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE77E2A518EC032D00F9EC31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC1495318ED6AEB007BF915 /* README.md in Resources */,
+				DE1B6FF418ED327C00D6233B /* Placeholder@2x.png in Resources */,
+				DE77E2B518EC032D00F9EC31 /* InfoPlist.strings in Resources */,
+				DE1B6FF318ED327C00D6233B /* Placeholder.png in Resources */,
+				DE77E2BD18EC032D00F9EC31 /* Images.xcassets in Resources */,
+				DE1B6FE518ECFDA200D6233B /* FontAwesome.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE77E2A318EC032D00F9EC31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1B6FE418ECFDA200D6233B /* NSString+FontAwesome.m in Sources */,
+				DE8BD86018ECEAF90054FE7C /* UIImageView+JMImageCache.m in Sources */,
+				DE1B6FEA18ED050A00D6233B /* UserSettingViewController.m in Sources */,
+				DE8BD86118ECEAF90054FE7C /* Reachability.m in Sources */,
+				DE1B6FE618ECFDA200D6233B /* UIColor+BButton.m in Sources */,
+				DE8BD84718ECD7080054FE7C /* MusicViewController.m in Sources */,
+				DE8BD84118ECD6DD0054FE7C /* SportViewController.m in Sources */,
+				DE1B6FFA18ED36F800D6233B /* MarqueeLabel.m in Sources */,
+				DE77E2BB18EC032D00F9EC31 /* AppDelegate.m in Sources */,
+				DE8BD84A18ECD74D0054FE7C /* CheckoutViewController.m in Sources */,
+				DE77E2B718EC032D00F9EC31 /* main.m in Sources */,
+				DE8BD85F18ECEAF90054FE7C /* JMImageCache.m in Sources */,
+				DE8BD84418ECD6F40054FE7C /* TheatreViewController.m in Sources */,
+				DE75E9A818EC1BA800A5CDB2 /* RootViewController.m in Sources */,
+				DE1B6FFE18ED3CA500D6233B /* CustomTableViewCell.m in Sources */,
+				DE1B6FE318ECFDA200D6233B /* BButton.m in Sources */,
+				DE8BD85618ECE3A80054FE7C /* QueryManager.m in Sources */,
+				DE8BD85118ECE3950054FE7C /* JSONKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE77E2B318EC032D00F9EC31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE77E2B418EC032D00F9EC31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE77E2D118EC032D00F9EC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE77E2D218EC032D00F9EC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE77E2D418EC032D00F9EC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TicketMaster/TicketMaster-Prefix.pch";
+				INFOPLIST_FILE = "TicketMaster/TicketMaster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE77E2D518EC032D00F9EC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TicketMaster/TicketMaster-Prefix.pch";
+				INFOPLIST_FILE = "TicketMaster/TicketMaster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE77E2A218EC032D00F9EC31 /* Build configuration list for PBXProject "TicketMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE77E2D118EC032D00F9EC31 /* Debug */,
+				DE77E2D218EC032D00F9EC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE77E2D318EC032D00F9EC31 /* Build configuration list for PBXNativeTarget "TicketMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE77E2D418EC032D00F9EC31 /* Debug */,
+				DE77E2D518EC032D00F9EC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE77E29F18EC032D00F9EC31 /* Project object */;
+}
